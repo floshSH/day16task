@@ -1,0 +1,13 @@
+#box{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#inbox{
+    border: 0 solid black;
+    box-shadow: 2px 2px 2px 1px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
