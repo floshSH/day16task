@@ -1,11 +1,11 @@
 
 const timer=document.querySelector("#time");
-function countDown(){
+const countDown= ()=> {
     let initialTime=null;
     let finalTime=null;
-console.log("hjdjde")
 
-    function countDownCalculation(){
+
+    const countDownCalculation= ()=>{
 
         if(initialTime==null){
             initialTime=Date.now();
